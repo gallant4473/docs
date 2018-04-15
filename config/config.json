@@ -1,0 +1,26 @@
+{
+  "DEVELOPMENT": {
+    "docs": {
+      "title": "Documentation",
+      "publicPath": "/"
+    }
+  },
+  "PRODUCTION": {
+    "docs": {
+      "title": "Documentation",
+      "publicPath": "https://gallant4473.github.io/docs/"
+    }
+  },
+  "STAGING": {
+    "docs": {
+      "title": "Documentation",
+      "publicPath": "https://gallant4473.github.io/docs/"
+    }
+  },
+  "QA": {
+    "docs": {
+      "title": "Documentation",
+      "publicPath": "https://gallant4473.github.io/docs/"
+    }
+  }
+}
