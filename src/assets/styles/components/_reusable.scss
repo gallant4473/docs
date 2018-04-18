@@ -1,0 +1,27 @@
+.reusable-checkbox {
+  font-size: 1.6rem;
+  &-item {
+    .label {
+      padding: 0px 10px 0px 25px;
+    }
+  }
+}
+
+.reusable-radio {
+  font-size: 1.6rem;
+  &-item {
+    .label {
+      padding: 0px 10px 0px 25px;
+      &:after {
+        left: 1px;
+        top: 9px;
+        width: 14px;
+        height: 14px;
+      }
+    }
+  }
+}
+.reusable-search-icon {
+  height: 10px;
+  width: 10px;
+}

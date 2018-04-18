@@ -107,6 +107,7 @@ exports.devServer = ({ host, port } = {}) => ({
     port, // Defaults to 8080
     open: true,
     overlay: true,
+    disableHostCheck: true,
     historyApiFallback: true
   }
 })

@@ -1,0 +1,24 @@
+.table {
+  font-size: 1.6rem;
+  border: 1px solid $color-grey-light-4;
+  &-header {
+    background: $color-grey-light-1;
+    border-bottom: 1px solid $color-grey-light-4;
+  }
+  &-list {
+    display: flex;
+    border-bottom: 1px solid $color-grey-light-4;
+    &:last-child {
+      border-bottom: none;
+    }
+    &-item {
+      padding: 10px;
+      &:first-of-type {
+        width: 25%;
+      }
+      &:nth-of-type(2) {
+        width: 75%;
+      }
+    }
+  }
+}

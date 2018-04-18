@@ -84,7 +84,7 @@ const productionConfig = (type, app) => {
 }
 const developmentConfig = merge([
   parts.devServer({
-    host: process.env.HOST,
+    host: '0.0.0.0' || process.env.HOST,
     port: process.env.PORT
   }),
   parts.HMR(),
